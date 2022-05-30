@@ -31,7 +31,7 @@ See the [Javadoc](http://netflix.github.com/Hystrix/javadoc) for the API.
 - Twitter: [@HystrixOSS](http://twitter.com/HystrixOSS)
 - [GitHub Issues](https://github.com/Netflix/Hystrix/issues)
 
-## What does it do?
+## Feature list
 It has some features mentioned bellow
 
 #### 1) Tracking the status of a colleague
@@ -58,14 +58,31 @@ More examples and information can be found in the [How To Use](https://github.co
 Example source code can be found in the [hystrix-examples](https://github.com/Netflix/Hystrix/tree/master/hystrix-examples/src/main/java/com/netflix/hystrix/examples) module.
 
 ## Environment Setup
+Required technologies for environmental setup
+### Frontend:
+
+```
+JavaScript framework - Angular (13)
+CSS Framework - Material UI
+Scripting Language – Typescript
+Build-tool - gulp
+```
+### Backend: 
+
+```
+Runtime environment – Node.js (18)
+Framework – express.js
+Websocket – socket.io
+Build-tool - gulp
+```
 
 ## Build
 
 To build:
 
 ```
-$ git clone git@github.com:Netflix/Hystrix.git
-$ cd Hystrix/
+$ git clone git@github.com:your_project.git
+$ npm install
 $ ./gradlew build
 ```
 
@@ -82,13 +99,11 @@ $ cd Hystrix/
 ```
 
 
-This demo simulates 4 different [HystrixCommand](https://github.com/Netflix/Hystrix/tree/master/hystrix-core/src/main/java/com/netflix/hystrix/HystrixCommand.java) implementations with failures, latency, timeouts and duplicate calls in a multi-threaded environment.
+TSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
 
-It logs the results of [HystrixRequestLog](https://github.com/Netflix/Hystrix/tree/master/hystrix-core/src/main/java/com/netflix/hystrix/HystrixRequestLog.java) and metrics from [HystrixCommandMetrics](https://github.com/Netflix/Hystrix/tree/master/hystrix-core/src/main/java/com/netflix/hystrix/HystrixCommandMetrics.java).
+## User and Roles
 
-## Dashboard
-
-The hystrix-dashboard component of this project has been deprecated and moved to [Netflix-Skunkworks/hystrix-dashboard](https://github.com/Netflix-Skunkworks/hystrix-dashboard). Please see the README there for more details including important security considerations.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
 
 
 ## Bugs and Feedback
