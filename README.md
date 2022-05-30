@@ -61,20 +61,19 @@ Example source code can be found in the [hystrix-examples](https://github.com/Ne
 Required technologies for environmental setup
 ### Frontend:
 
-```
-JavaScript framework - Angular (13)
-CSS Framework - Material UI
-Scripting Language – Typescript
-Build-tool - gulp
-```
+
+- JavaScript framework - Angular (13)
+- CSS Framework - Material UI
+- Scripting Language – Typescript
+- Build-tool - gulp
+
 ### Backend: 
 
-```
-Runtime environment – Node.js (18)
-Framework – express.js
-Websocket – socket.io
-Build-tool - gulp
-```
+
+- Runtime environment – Node.js (18)
+- Framework – express.js
+- Websocket – socket.io
+
 
 ## Build
 
